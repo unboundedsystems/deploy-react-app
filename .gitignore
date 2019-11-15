@@ -1,0 +1,14 @@
+*.log
+*.map
+*~
+.DS_Store
+.nyc_output
+\#*
+\.\#*
+dist
+generated
+node_modules
+npm-debug.log.*
+output
+*/build/
+*/temp/

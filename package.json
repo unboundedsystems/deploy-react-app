@@ -1,0 +1,61 @@
+{
+  "name": "deploy-react-app",
+  "version": "0.0.1-a",
+  "description": "Create AND deploy your React app with ease!",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/unboundedsystems/deploy-react-app#readme",
+  "author": "Unbounded Systems",
+  "contributors": [
+    {
+      "name": "Manish Vachharajani",
+      "email": "manishv@unbounded.systems",
+      "url": "https://twitter.com/mvachhar"
+    },
+    {
+      "name": "Mark Terrel",
+      "email": "mark@unbounded.systems",
+      "url": "https://twitter.com/mterrel"
+    }
+  ],
+  "repository": "unboundedsystems/deploy-react-app",
+  "keywords": [
+    "adapt",
+    "adaptjs",
+    "adpt",
+    "unbounded",
+    "infrastructure-as-code",
+    "devops",
+    "deploy",
+    "aws",
+    "k8s",
+    "kubernetes",
+    "cloud",
+    "deployment",
+    "typescript",
+    "nodejs",
+    "react",
+    "reactjs",
+    "containers",
+    "docker"
+  ],
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
+  "files": [],
+  "scripts": {
+    "clean": "rm -rf build dist generated temp",
+    "pretest": "make build",
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -w -p tsconfig.json",
+    "lint": "tslint -e '**/*.json' --project .",
+    "lint-and-fix": "tslint -e '**/*.json' --project . --fix",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.7",
+    "mocha": "^6.2.2",
+    "mocha-slow-options": "^0.0.2",
+    "should": "^13.2.3",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {}
+}

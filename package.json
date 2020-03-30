@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@types/node": "12.12.30",
-    "mocha": "6.2.2",
+    "mocha": "6.2.3",
     "mocha-slow-options": "0.0.2",
     "should": "13.2.3",
     "typescript": "3.8.3"

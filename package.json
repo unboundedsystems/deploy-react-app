@@ -51,7 +51,7 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "@types/node": "12.12.47",
+    "@types/node": "12.12.50",
     "mocha": "7.2.0",
     "mocha-slow-options": "0.0.2",
     "should": "13.2.3",
